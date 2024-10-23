@@ -1,0 +1,20 @@
+Aim: Brute forcing the authentication of Mutillidae.
+
+1. Turn on metasploitable and Start Mutillidae
+2. navigate to OWASP 10 > A1 - Injection > SQLMAP Practice Target > View Someones Blog
+3. select Drop down > Please Choose Author > Show All
+4. Copy the Username one by One in the File
+5. Go to login Page
+6. Start interception in Burpsuite
+7. enter false user id and password
+8. capture the Proxy and forward it to Intruder
+9. Select the user id and click on add similarly select Password and add
+10. Set attack type: Cluster Bomb
+11. Go to payload section
+12. paste the Username in payload 1 copied from table
+13. paste the Password in Payload 2 create your own
+14. start the attack
+15. One with Largest Length is the correct password
+16: Click on Render
+
+thanks me later: you have successfully bruteforced password

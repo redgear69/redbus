@@ -1,0 +1,27 @@
+AIM: Detecting XSS Vulnerabilities in web application
+
+Reflected XSS:
+
+1. Start metasploitable > open Mutillidae
+2. OWASP Top 10 > A2 - Cross Site Scripting (XSS) > Refelected (First Order) > DNS Lookup
+3. Put the Script in Hostname/IP = <script>alert(document.cookie)</script>
+4. The alert prompt Cookie displays the username, uid and the PHP Session ID.
+
+Stored XSS
+
+1. OWASP Top 10 > A2 - Cross Site Scripting (XSS) > Persistent (Second Order) > Add to your blog
+2. In the text box put <script>alert(document.cookie)</script>
+
+DOM XSS
+
+1. open BurpSuite
+2. Go to Proxy > start Browser
+3. OWASP Top 10 > A2 - Cross Site Scripting (XSS) > Persistent (Second Order) > Show Log
+4. Intercept the cookies, modify User-Agent from
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.141 Safari/537.36
+
+to 
+
+User-Agent: <script>alert(document.cookie)</script>
+
+Thanks me Later, you Have Successfully Performed your Experiment

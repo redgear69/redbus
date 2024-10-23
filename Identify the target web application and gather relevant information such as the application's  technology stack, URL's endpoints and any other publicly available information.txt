@@ -1,0 +1,19 @@
+Tool used for gathering information are as follow:
+1. Netcraft
+Link: https://searchdns.netcraft.com/
+
+
+2. Wappalyzer
+Link: https://www.wappalyzer.com/
+
+
+3. theHarverster
+installation: sudo apt install theharvester
+cmd: theharverster -d <Website Name>
+
+
+4. Dnsdumpster
+website: https://dnsdumpster.com/
+
+5. GetLinkInfo
+https://www.getlinkinfo.com/

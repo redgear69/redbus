@@ -1,0 +1,15 @@
+Aim: Use open-source intelligence (OSINT) techniques to gather information about the application, its infrastructure, and potential vulnerabilities.
+
+1. Shodan
+https://www.shodan.io/
+
+2. Wappalayzer
+https://www.wappalyzer.com/
+
+3. Nikto:
+Nikto -url <http://website_name/>
+
+4. WhatWeb:
+Whatweb http://website_name/
+Whatweb -v http://website_name/
+Whatweb -a 4 http://website_name/
